@@ -124,7 +124,6 @@ function updateSummary(frame) {
   settings.dataBriefLabels.forEach(function(label, index, array) {
     measures.push(frame[label]);
   });
-  console.log(measures);
   $('#type-1').html('<td>' + measures.join('</td><td>') + '</td>');
 }
 
